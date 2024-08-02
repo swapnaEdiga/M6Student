@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class CreatingLeadPage {
 		  
 		  @FindBy(xpath="//input[@name='firstname']")
-		  private WebElement firstname;
+		  private WebElement FirstName;
 		  
 		  @FindBy(xpath="//input[@name='lastname']")
 		  private WebElement lastname;

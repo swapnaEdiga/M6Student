@@ -2,33 +2,33 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-02T11:49:10 IST" name="Default suite" finished-at="2024-08-02T11:50:07 IST" duration-ms="57069">
+  <suite started-at="2024-08-02T12:41:31 IST" name="Default suite" finished-at="2024-08-02T12:41:45 IST" duration-ms="13458">
     <groups>
       <group name="regression">
         <method signature="LE_01.le01TC()[pri:0, instance:testcase_repo.LE_01@2d52216b]" name="le01TC" class="testcase_repo.LE_01"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2024-08-02T11:49:10 IST" name="Default test" finished-at="2024-08-02T11:50:07 IST" duration-ms="57069">
+    <test started-at="2024-08-02T12:41:31 IST" name="Default test" finished-at="2024-08-02T12:41:45 IST" duration-ms="13458">
       <class name="testcase_repo.LE_01">
-        <test-method is-config="true" signature="createDbconnection()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:49:10 IST" name="createDbconnection" finished-at="2024-08-02T11:49:10 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="createDbconnection()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:31 IST" name="createDbconnection" finished-at="2024-08-02T12:41:31 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDbconnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:49:10 IST" name="launchBrowser" finished-at="2024-08-02T11:49:28 IST" duration-ms="18085" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:31 IST" name="launchBrowser" finished-at="2024-08-02T12:41:34 IST" duration-ms="2596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:49:28 IST" name="loginOperation" finished-at="2024-08-02T11:49:44 IST" duration-ms="16133" status="PASS">
+        <test-method is-config="true" signature="loginOperation()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:34 IST" name="loginOperation" finished-at="2024-08-02T12:41:37 IST" duration-ms="2604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginOperation -->
-        <test-method signature="le01TC()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:49:44 IST" name="le01TC" finished-at="2024-08-02T11:50:03 IST" duration-ms="19488" status="FAIL">
+        <test-method signature="le01TC()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:37 IST" name="le01TC" finished-at="2024-08-02T12:41:43 IST" duration-ms="6310" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "this.firstname" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "this.FirstName" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "this.firstname" is null
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "this.FirstName" is null
 at ObjectRepo.CreatingLeadPage.createLead(CreatingLeadPage.java:64)
 at testcase_repo.LE_01.le01TC(LE_01.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -65,15 +65,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- le01TC -->
-        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:50:03 IST" name="logoutOperation" finished-at="2024-08-02T11:50:06 IST" duration-ms="3165" status="PASS">
+        <test-method is-config="true" signature="logoutOperation()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:43 IST" name="logoutOperation" finished-at="2024-08-02T12:41:45 IST" duration-ms="1792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutOperation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:50:06 IST" name="closeBrowser" finished-at="2024-08-02T11:50:07 IST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:45 IST" name="closeBrowser" finished-at="2024-08-02T12:41:45 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDbconnections()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T11:50:07 IST" name="closeDbconnections" finished-at="2024-08-02T11:50:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDbconnections()[pri:0, instance:testcase_repo.LE_01@2d52216b]" started-at="2024-08-02T12:41:45 IST" name="closeDbconnections" finished-at="2024-08-02T12:41:45 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDbconnections -->
